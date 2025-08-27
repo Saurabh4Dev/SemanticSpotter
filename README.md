@@ -1,8 +1,8 @@
-# MrHelpMateAI
+# Semantic Spotter
 
 
 # Project Name
-> Semantic spotter project - RAG Q&A System for Insurance Policies using LangChain 
+> Semantic Spotter project - RAG Q&A System for Insurance Policies using LangChain 
 
 
 ## General Information
