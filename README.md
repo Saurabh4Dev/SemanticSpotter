@@ -53,7 +53,21 @@ Connects everything using a LangChain RAG Chain, where:
 6.2	Pull the prompt from LangChainHub using the template: rlm/rag-prompt.
 6.3	The formatted prompt and query are passed to an LLM to generate a grounded answer.
 
- 
+## Data Source
+PDF files used for this RAG implementation can be downloaded and used in Google colab notebook from github link(https://github.com/Saurabh4Dev/SemanticSpotter/tree/main/data ).
+
+## How to run Project Notebook
+Code (ipynb) file is submitted in  zip format along with documentation and also available in github repository.
+Download the insurance policy PDF files from data source to a relevant location, reference PDFs in notebook and run the code.
+Pre-requisites
+You should have an Openai API key and Hugging face API token with you to work along with this notebook.
+
+## Further Improvements
+Few more experiments that can improve Evaluation results:
+1.	Improve Retriever - Use of hybrid retrieval (BM25 + vector).
+2.	Chunking Strategy - Adjust chunk size & overlap. Sometimes small chunks lose context, large chunks dilute relevance.
+3.	LLM Guardrails - LLM Guardrails are constraints, rules, or validation mechanisms for Large Language Model (LLM) to control its behaviour and prevent undesirable outputs like Hallucinations, Uncited claims,  Off-topic responses,  Unsafe / disallowed content so citation enforcement to reduce “0 relevancy hallucinations” needs to be added.
+
 ## Tools and Technologies
 - Python 3.10.4
 - Jupyter notebook
